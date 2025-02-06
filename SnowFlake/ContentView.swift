@@ -38,6 +38,9 @@ struct ContentView: View {
                 }
             }
             .navigationBarTitle("Resorts")
+            .navigationDestination(for: Resort.self){ resort in
+                ResortView(resort: resort)
+            }
         } detail: {
             WelcomeView()
         }
