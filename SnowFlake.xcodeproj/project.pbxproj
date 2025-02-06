@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D3FBD0722D5538BA006C8B5E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FBD0712D5538BA006C8B5E /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D3FBD0582D55305D006C8B5E /* SnowFlake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowFlake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FBD0712D5538BA006C8B5E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +37,7 @@
 		D3FBD04F2D55305D006C8B5E = {
 			isa = PBXGroup;
 			children = (
+				D3FBD0712D5538BA006C8B5E /* WelcomeView.swift */,
 				D3FBD05A2D55305D006C8B5E /* SnowFlake */,
 				D3FBD0592D55305D006C8B5E /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FBD0722D5538BA006C8B5E /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

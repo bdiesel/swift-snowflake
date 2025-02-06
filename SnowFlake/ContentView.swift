@@ -39,7 +39,7 @@ struct ContentView: View {
             }
             .navigationBarTitle("Resorts")
         } detail: {
-            Text("Detail")
+            WelcomeView()
         }
     }
 }
